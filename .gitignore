@@ -1,0 +1,56 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build directories and outputs
+/bin/
+/pkg/
+/out/
+
+# Go dependency files
+go.sum
+vendor/
+
+# Generated files
+*.log
+*.tmp
+*.out
+
+# GoLand IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# Other editor/IDE-specific files
+.DS_Store
+*.swp
+*~
+
+# Testing cache and results
+testdata/
+*.test
+*.coverprofile
+.coverage/
+*.cov
+*.coverage
+
+# Go mod cache (Optional if using go mod)
+go.mod
+go.sum
+
+# Environment variables and configuration files
+.env
+.env.*
+
+# Dependency manager specific
+Gopkg.lock
+Gopkg.toml
+
+# macOS Finder files
+.DS_Store
